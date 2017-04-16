@@ -9,7 +9,7 @@ public class SampleController {
 
   @RequestMapping("/")
   public String loadHomePage(Model m) {
-    m.addAttribute("message", "Hello World!");
+    m.addAttribute("message", "Hello World! - From Abdul");
     return "index";
   }
 }
